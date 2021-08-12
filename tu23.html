@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Events</title>
+    <style>
+        #btn{
+            color: lightseagreen;
+            padding: 15px;
+            font-weight: bold;
+            background-color: moccasin;
+            border: 2px solid brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>THIS IS MY HEADING</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis consequuntur debitis harum magni optio dolorem, animi tenetur sit iste obcaecati, repellendus quaerat cupiditate distinctio sapiente, neque perferendis commodi? Nobis, repellat consectetur! Rem quis libero nobis vel consectetur corporis quae incidunt unde molestias, consequuntur deleniti nostrum asperiores autem voluptatum blanditiis sint repellat nam rerum corrupti perspiciatis error quia? Numquam, accusantium totam ullam molestiae quidem reiciendis, enim eligendi voluptatum officiis ut similique ea, autem veniam beatae nostrum repellat aliquam ad quos repellendus iure voluptatibus? Aliquam architecto odio numquam temporibus nihil maiores non voluptatibus. Quis vitae accusamus delectus alias porro est pariatur et obcaecati, voluptatem iusto odio ea eveniet eligendi sed? Veritatis cupiditate asperiores amet ducimus iusto magni voluptatem quaerat quas adipisci deserunt minus, repellendus doloribus esse nemo? Eum iure doloremque provident corporis corrupti hic, ex et alias. Explicabo assumenda hic tenetur similique praesentium ab exercitationem optio perspiciatis quas tempora, nisi suscipit qui enim harum, illum sequi eos est consequuntur vero labore molestiae repudiandae? Distinctio explicabo quaerat placeat impedit autem odio quam quisquam quasi omnis earum, est aliquam sint unde eos dolor quod aperiam dignissimos voluptate sapiente nulla libero id dolorum. At blanditiis perspiciatis nam porro! Error reprehenderit, quam omnis aperiam quia porro!
+        </p>
+    </div>
+    <button id="btn" onclick="hide()"> For More</button>
+
+    <script>
+        let para =document.getElementById('para');
+          para.addEventListener('mouseover',function run(){
+              console.log('mouse inside');
+          });
+
+          para.addEventListener('mouseout',function run(){
+              console.log('mouse outside');
+          });
+
+        //function hide(){
+         // let btn = document.getElementById('btn');
+         // let para =document.getElementById('para');
+         // if (para.style.display != "none") {
+         // para.style.display= 'none';
+        // }
+        //else{
+            para.style.display= 'block'
+        //}
+   // }
+    </script>
+</body>
+</html>

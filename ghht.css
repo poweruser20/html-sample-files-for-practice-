@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 15px 30px;
+  padding: 9px;
+  font-size: 18px;
+  background-image: url(hh.jfif); 
+}
+ .special{
+     background-color: rgba(171, 205, 228, 0.918);
+     padding: 5px 20px 15px 20px;
+     border: 1px solid dimgray;
+     border-radius: 6px;
+ }
+ input[type="text"],
+ input[type="number"],
+ input[type="email"],
+ input[type="date"],
+ input[type="password"],
+ select,
+ textarea{ width: 100%;
+    padding: 5px;
+    border: 1px solid cadetblue;
+    border-radius: 3px;
+ }
+ fieldset{
+     background-color: rgb(247, 247, 247);
+ }
+ .main{
+     text-align: center;
+ }
+
+ input[type="submit"]{
+     background-color: rgba(90, 209, 53, 0.863);
+     width: 100%;
+     padding: 10px 20x;
+     font-size: 21px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+  input[type="submit"]:hover{
+      background-color: rgba(255, 0, 0, 0.651);
+  }
+  .gto{
+    clip-path: circle(44.1% at 50% 50%);
+    width: 40rem;
+    height: 50rem;
+  }
+
+

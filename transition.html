@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition effects</title>
+    <style>
+       
+        #box{
+            display: flex;
+            height: 250px;
+            width: 250px;
+            background-color: coral;
+            align-items: center;
+            justify-content: center;
+            transition-property: all;
+            transition-timing-function: ease-in-out;
+            transition-duration: 1s;
+        }
+        #box:hover{
+            background-color: cyan;
+            height: 400px;
+            width: 400px;
+            border-radius: 40px;
+            font-size: 35px;
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <h2>This is css tutorial</h2>
+    <div class="wrapper">
+        <div id="box">
+            OH YEAH!
+        </div>
+    </div>
+</body>
+</html>

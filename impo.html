@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Js Topics</title>
+
+</head>
+<body>
+    <div class="container" id="lists">
+       <ul id= "termo">
+           <li>Home</li>
+           <li>About</li>
+           <li>Services</li>
+           <li>Contact</li>
+       </ul>
+    </div>
+
+    <script>
+        //alert("This is the ip address")
+
+        //let name = prompt("what is your name ?","guest");
+        //console.log(name);
+      let lists= document.getElementById('lists');
+      console.log(lists);
+
+      let termo= document.getElementById('termo');
+      console.log(termo);
+      
+      let container= document.getElementsByClassName('container');
+      console.log(container);
+
+      let sel= document.querySelectorAll('#termo>li');
+      console.log("selector returns",sel);
+    </script>
+</body>
+</html>

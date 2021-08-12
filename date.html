@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS date and time</title>
+</head>
+<body>
+    <div class="wrapper">
+        This is A Wrapper.
+    </div>
+    <Script>
+        console.log("This is date and time Tutorial")
+        let now = new Date(2030,12,11,10,9);
+        console.log(now);
+        
+        let yr= now.getFullYear();
+        console.log("the year is ",yr)
+
+        let dat= now.getDay();
+        console.log("the date is ",dat);
+
+        let time = now.getTime();
+        console.log("the time is ",time);
+
+        let sec = now.getSeconds();
+        console.log("the seconds is ",sec)
+    </Script>
+</body>
+</html>

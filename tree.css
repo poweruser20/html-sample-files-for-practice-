@@ -1,0 +1,20 @@
+h1{
+    color: rgb(12, 14, 22);
+    text-align: center;
+    background-color: silver;
+}
+
+table,tr,th,td{
+border: 2px solid black;
+border-collapse: collapse;
+padding: 8px;
+border-spacing: 5px;
+
+}
+
+tr{
+    background-color: cyan;
+}
+td{
+    background-color: lightblue;
+}

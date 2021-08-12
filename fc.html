@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX CHALLENGE-1 </title>
+    <style>
+         .containers{max-width:100%;
+height:auto;
+display: flex;
+justify-content:space-between;}
+/************
+.sub-container because the color and margin will be same for those all
+**************/
+.sub-container{margin-bottom:0.5em;
+background-color: rgb(10, 40, 173);
+height:auto;}
+/* for conainer-1's boxes (3 big boxes)*/
+.container-1 .sub-container{width:33%;
+}
+/* for container2 boxes( 4 boxes)*/
+.container-2 .sub-container{width:24%;
+  }
+/*for container-3 boxes(5boxes) */
+.container-3 .sub-container{width:19%;}
+/***********
+(from here ist big box's styling start)
+for sub-container's items
+****************/
+.items{display:flex;
+    justify-content:space-between;
+margin-bottom:0.5em;}
+/*****
+for sub-items of ist bog box of ist row
+*******/
+.sub-items{height:auto;
+background-color: rgb(21, 146, 196);}
+
+.item-1 .sub-items{width:30%;}
+.item-2 .sub-items{width:22.5%;}
+.item-3 .sub-items{width:18%;}
+
+        
+
+    </style>
+</head>
+<body>
+    <body>
+        <div class="containers container-1"> <!--I-row--> <!-- container for row of big square boxes-->
+          <div class="sub-container  sub-cont-1">1. <!--ist big  box-->
+            <div class="items  item-1"> <!--Ist row in ist big box-->
+              <div class="sub-items">1</div>  
+               <div class="sub-items">2</div>
+               <div class="sub-items">3</div>
+            </div>
+            <div class="items  item-2">  <!--2nd row in ist big box-->
+                 <div class="sub-items">1</div>
+                 <div class="sub-items">2</div>
+                 <div class="sub-items">3</div>
+                 <div class="sub-items">4</div>
+              </div>
+            <div class="items  item-3"> <!--3rd row in ist big box-->
+                <div class="sub-items">1</div>
+                <div class="sub-items">2</div>
+                <div class="sub-items">3</div>
+                <div class="sub-items">4</div>
+                <div class="sub-items">5</div>
+                </div>
+            </div>
+          <div class="sub-container  sub-cont-2">2</div>  <!-- 2nd big box-->
+          <div class="sub-container  sub-cont-3">3</div> <!-- 3rd big box-->
+      
+        </div>
+        <div class="containers container-2"> <!--II-row -->
+          <div class="sub-container">1</div>
+          <div class="sub-container">2</div>
+          <div class="sub-container">3</div>
+          <div class="sub-container">4</div>
+      
+        </div>
+        <div class="containers container-3"> <!--III-row-->
+          <div class="sub-container">1</div>
+          <div class="sub-container">2</div>
+          <div class="sub-container">3</div>
+          <div class="sub-container">4</div>
+          <div class="sub-container">5</div>
+          
+      
+        </div>
+          
+</body>

@@ -1,0 +1,18 @@
+
+nav{
+    background-color: orangered;
+    overflow: hidden;
+}
+
+nav a{
+color: darkgray;
+text-decoration: none;
+background-color: saddlebrown;
+padding: 20px;
+text-align: center;
+float: left;
+
+}
+nav a :hover{
+    color: orangered;
+}
